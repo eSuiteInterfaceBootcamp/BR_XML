@@ -19,7 +19,7 @@ dlNumber.saveOrUpdate();
 
 // create the traffic newTicket case
 Case newCase = new Case();
-newCase.caseNumber = newTicket.newTicketID.text();
+newCase.caseNumber = newTicket.TicketNumber.text();
 newCase.caseType = "TRAFFIC";
 newCase.saveOrUpdate();
 
